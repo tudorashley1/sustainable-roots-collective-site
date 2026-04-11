@@ -1,0 +1,19 @@
+<svg width="820" height="260" viewBox="0 0 820 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="820" height="260" rx="28" fill="none"/>
+  <g transform="translate(18 20)">
+    <circle cx="92" cy="92" r="88" fill="#0B120D"/>
+    <circle cx="92" cy="92" r="81" stroke="#C7A257" stroke-width="3.2"/>
+    <path d="M92 116C91.9 82.2 91.9 62.5 92 48.6" stroke="#C7A257" stroke-width="4" stroke-linecap="round"/>
+    <path d="M91.2 116.4C73.8 108.4 59.5 104.2 48.2 103.3" stroke="#C7A257" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M92.8 116.4C110.2 108.4 124.5 104.2 135.8 103.3" stroke="#C7A257" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M84.6 51C61 49.7 44.7 58.2 35.8 76.4C58.2 79.9 75.3 75.2 86.9 62.5L84.6 51Z" fill="#8CB666"/>
+    <path d="M99.4 51C123 49.7 139.3 58.2 148.2 76.4C125.8 79.9 108.7 75.2 97.1 62.5L99.4 51Z" fill="#8CB666"/>
+    <path d="M91.2 118.2C86.8 132.1 83.5 142 81.3 147.6" stroke="#C7A257" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M92.8 118.2C97.2 132.1 100.5 142 102.7 147.6" stroke="#C7A257" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(218 38)">
+    <text x="0" y="78" fill="#E9E1D3" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="2">SUSTAINABLE</text>
+    <text x="0" y="148" fill="#E9E1D3" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="2">ROOTS</text>
+    <text x="2" y="200" fill="#C7A257" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="10">COLLECTIVE</text>
+  </g>
+</svg>

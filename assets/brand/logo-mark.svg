@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(110 110) rotate(90) scale(82)">
+      <stop stop-color="#8CB666" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8CB666" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="110" cy="110" r="102" fill="#0B120D"/>
+  <circle cx="110" cy="110" r="94" stroke="#C7A257" stroke-width="4"/>
+  <circle cx="110" cy="110" r="82" fill="url(#glow)"/>
+  <path d="M110 136C109.8 95.3 109.8 71.4 110 55" stroke="#C7A257" stroke-width="5.2" stroke-linecap="round"/>
+  <path d="M109.2 136.6C88 126.9 70.8 121.8 57.5 120.8" stroke="#C7A257" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M110.8 136.6C132 126.9 149.2 121.8 162.5 120.8" stroke="#C7A257" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M101.6 59C72.8 57.4 52.9 67.7 42 90.1C69.4 94.4 90.2 88.7 104.4 73L101.6 59Z" fill="#8CB666"/>
+  <path d="M118.4 59C147.2 57.4 167.1 67.7 178 90.1C150.6 94.4 129.8 88.7 115.6 73L118.4 59Z" fill="#8CB666"/>
+  <path d="M109 139C104.1 155.1 100.4 166.4 97.8 172.8" stroke="#C7A257" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M111 139C115.9 155.1 119.6 166.4 122.2 172.8" stroke="#C7A257" stroke-width="3.4" stroke-linecap="round"/>
+</svg>
