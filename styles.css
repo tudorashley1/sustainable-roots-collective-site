@@ -33,8 +33,7 @@ img{max-width:100%;display:block}
 .brand{display:flex;align-items:center;gap:1rem;font-weight:700;letter-spacing:.04em}
 .brand img{width:52px;height:52px}
 .brand-lockup{display:flex;flex-direction:column}
-.brand-name{font-size:1.12rem;text-transform:uppercase;line-height:1.05}
-.brand-tag{font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.16em;line-height:1.25}
+.brand-name{font-size:1.95rem;text-transform:uppercase;line-height:1.02;color:var(--muted);text-transform:uppercase;letter-spacing:.16em;line-height:1.25}
 .nav-links{display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap}
 .nav-links a{color:var(--muted);font-size:1rem;padding:.25rem 0;border-bottom:1px solid transparent}
 .nav-links a:hover,.nav-links a.active{color:#fff;border-color:rgba(255,255,255,.2)}
@@ -145,3 +144,84 @@ small{color:var(--muted)}
   .step strong,.step p:last-child{grid-column:auto}
   .step-num{grid-row:auto;margin-top:0}
 }
+
+
+/* Added refinements: larger nav + subtle green texture */
+.site-header{
+  padding: 1.25rem 0 !important;
+}
+.nav-inner{
+  min-height: 104px !important;
+  gap: 1rem !important;
+}
+.brand-lockup{
+  gap: 1rem !important;
+}
+.brand-mark{
+  width: 66px !important;
+  height: 66px !important;
+  flex-shrink: 0;
+}
+.brand-name{
+  font-size: 1.95rem !important;
+  line-height: 1.02 !important;
+  letter-spacing: 0.015em;
+}
+.brand-tagline{
+  font-size: 1.02rem !important;
+  line-height: 1.35 !important;
+  margin-top: 0.24rem;
+  opacity: 0.96 !important;
+}
+.main-nav a{
+  font-size: 1.05rem !important;
+}
+@media (max-width: 900px){
+  .nav-inner{
+    min-height: 96px !important;
+  }
+  .brand-mark{
+    width: 58px !important;
+    height: 58px !important;
+  }
+  .brand-name{
+    font-size: 1.7rem !important;
+  }
+  .brand-tagline{
+    font-size: 0.95rem !important;
+  }
+}
+
+/* Subtle textured depth for dark green backgrounds */
+:root{
+  --forest-texture:
+    radial-gradient(circle at 20% 20%, rgba(199,162,87,0.055), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(135,179,93,0.05), transparent 28%),
+    radial-gradient(circle at 10% 80%, rgba(255,255,255,0.018), transparent 22%),
+    radial-gradient(circle at 85% 75%, rgba(199,162,87,0.03), transparent 20%),
+    linear-gradient(135deg, rgba(255,255,255,0.018) 0%, rgba(255,255,255,0) 24%, rgba(0,0,0,0.045) 100%),
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.012) 0 2px, transparent 2px 14px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.008) 0 1px, transparent 1px 16px);
+}
+
+/* apply texture to major dark sections without overwhelming the glow */
+body,
+.hero,
+.section-dark,
+.page-hero,
+.site-footer,
+.paths-section,
+.steps-section{
+  background-image: var(--forest-texture) !important;
+  background-blend-mode: soft-light, soft-light, screen, soft-light, overlay, soft-light, soft-light !important;
+}
+
+/* keep cards readable on textured backgrounds */
+.card,
+.path-card,
+.step-card,
+.panel,
+.story-panel{
+  backdrop-filter: blur(2px);
+}
+
