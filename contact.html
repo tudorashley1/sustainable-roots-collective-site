@@ -1,4 +1,106 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Contact — Sustainable Roots Collective</title><link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg"/><link rel="stylesheet" href="styles.css"/></head><body>
-<header class="site-header"><div class="container nav"><a class="brand" href="index.html"><img src="assets/brand/logo-mark.svg" alt="logo"/><span class="brand-lockup"><span class="brand-name">Sustainable Roots Collective</span><span class="brand-tag">Rooted in flavor</span></span></a><nav class="nav-links"><a data-nav href="index.html">Home</a><a data-nav href="about.html">About</a><a data-nav href="restaurants.html">Restaurants</a><a data-nav href="markets.html">Markets</a><a data-nav href="contact.html">Contact</a></nav></div></header>
-<main class="content-wrap"><section class="page-hero"><div class="container"><span class="eyebrow">Contact</span><h1>Join the weekly harvest or start a restaurant inquiry.</h1><p class="lead">Reach out to join the weekly harvest list, ask about restaurant supply, or connect directly with Brian.</p></div></section><section class="section"><div class="container contact-grid"><div class="panel"><h2>Start here</h2><p>For the first version of this business, the most important thing is a simple repeatable promise. Let people raise their hand. Then fulfill well.</p><ul class="list-clean"><li>Join the weekly harvest list</li><li>Ask about restaurant supply</li><li>Request market updates</li></ul><p><strong>Call or text:</strong> <a href="tel:2313757364">231-375-7364</a><br/><strong>Email:</strong> <a href="mailto:wellbrian28@gmail.com">wellbrian28@gmail.com</a></p></div><div class="panel"><form name="contact" method="POST" data-netlify="true" action="/thank-you.html"><input type="hidden" name="form-name" value="contact" /><div><label for="name">Name</label><input id="name" name="name" required /></div><div><label for="email">Email</label><input id="email" name="email" type="email" required /></div><div><label for="interest">I’m interested in</label><select id="interest" name="interest"><option>Weekly harvest updates</option><option>Restaurant supply</option><option>Market updates</option><option>Something else</option></select></div><div><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us what you're looking for."></textarea></div><button class="btn btn-primary" type="submit">Send Inquiry</button></form></div></div></section></main>
-<footer class="site-footer"><div class="container footer-grid"><div><strong>Sustainable Roots Collective</strong><br/><small>Rooted in flavor. Grown with intention.</small><br/><small><a href="tel:2313757364">231-375-7364</a> · <a href="mailto:wellbrian28@gmail.com">wellbrian28@gmail.com</a></small></div><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="restaurants.html">Restaurants</a><a href="markets.html">Markets</a></div></div></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sustainable Roots Collective</title>
+  <meta name="description" content="Contact Sustainable Roots Collective to join the weekly harvest list, ask about pickup, or inquire about restaurant supply in Muskegon." />
+  <meta property="og:title" content="Contact Sustainable Roots Collective" />
+  <meta property="og:description" content="Join the weekly harvest list, ask about pickup, or reach out about restaurant supply." />
+  <meta property="og:image" content="assets/brand/hero-art.png" />
+  <link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg" />
+  <link rel="canonical" href="https://sustainable-roots-collective-site.netlify.app/contact.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Sustainable Roots Collective home">
+        <img src="assets/brand/logo-mark.svg" alt="Sustainable Roots Collective mark" />
+        <span class="brand-lockup">
+          <span class="brand-name">Sustainable Roots Collective</span>
+          <span class="brand-tag">Rooted in flavor</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a data-nav href="index.html">Home</a>
+        <a data-nav href="about.html">About</a>
+        <a data-nav href="restaurants.html">Restaurants</a>
+        <a data-nav href="markets.html">Markets</a>
+        <a data-nav href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="content-wrap">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Get in touch</span>
+        <h1>Join the weekly harvest list or ask a question.</h1>
+        <p class="lead">Use the form below to ask about home pickup, restaurant supply, or future market updates. You can also call, text, or email Brian directly.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="panel">
+          <h2>Contact Details</h2>
+          <p><strong>Phone:</strong><br/><a class="inline-link" href="tel:2313757364">231-375-7364</a></p>
+          <p><strong>Email:</strong><br/><a class="inline-link" href="mailto:wellbrian28@gmail.com">wellbrian28@gmail.com</a></p>
+          <p><strong>Service Area:</strong><br/>Muskegon and nearby communities</p>
+          <div class="callout">The easiest first step for most people is joining the weekly harvest list. That keeps ordering simple and makes it easy to hear about what is fresh.</div>
+        </div>
+
+        <div class="panel">
+          <h2>Send a Message</h2>
+          <form name="contact" method="POST" data-netlify="true" action="thank-you.html">
+            <input type="hidden" name="form-name" value="contact" />
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div>
+              <label for="interest">I’m reaching out about</label>
+              <select id="interest" name="interest" required>
+                <option value="">Select one</option>
+                <option>Joining the weekly harvest list</option>
+                <option>Home pickup</option>
+                <option>Restaurant supply</option>
+                <option>Market updates</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell Brian what you are looking for."></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Sustainable Roots Collective</strong><br/>
+        <small>Fresh microgreens for Muskegon homes, chefs, and community buyers.</small><br/>
+        <small><a href="tel:2313757364">231-375-7364</a> · <a href="mailto:wellbrian28@gmail.com">wellbrian28@gmail.com</a></small>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="markets.html">Markets</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
