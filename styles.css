@@ -244,3 +244,97 @@ small{color:var(--muted)}
   }
 }
 
+
+
+/* --- Launch prep additions --- */
+.utility-grid{
+  display:grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap:2rem;
+  align-items:start;
+}
+.policy-card, .faq-list, .info-panel, .notice-card{
+  background: linear-gradient(135deg, rgba(12,28,20,.9), rgba(14,22,18,.82));
+  border: 1px solid rgba(199,162,87,.22);
+  border-radius: 28px;
+  padding: 1.6rem;
+  box-shadow: 0 16px 40px rgba(0,0,0,.18);
+}
+.section-light .policy-card,
+.section-light .faq-list,
+.section-light .info-panel,
+.section-light .notice-card{
+  background: rgba(255,255,255,.75);
+}
+.notice-card p:last-child,
+.policy-card p:last-child,
+.info-panel p:last-child{
+  margin-bottom:0;
+}
+.faq-list details{
+  border-top:1px solid rgba(199,162,87,.18);
+  padding:1rem 0;
+}
+.faq-list details:first-child{border-top:none;padding-top:0;}
+.faq-list summary{
+  cursor:pointer;
+  font-weight:700;
+  list-style:none;
+  padding-right:1rem;
+}
+.faq-list summary::-webkit-details-marker{display:none;}
+.faq-list details[open] summary{margin-bottom:.7rem;}
+.small-muted{
+  font-size:.95rem;
+  opacity:.84;
+}
+.form-consent{
+  font-size:.94rem;
+  line-height:1.55;
+  opacity:.92;
+  margin-top:.9rem;
+}
+.form-consent input{
+  width:1rem;
+  height:1rem;
+  margin-right:.55rem;
+  vertical-align:middle;
+}
+.link-list{
+  display:grid;
+  gap:.6rem;
+  padding:0;
+  list-style:none;
+}
+.link-list a{text-decoration:none;}
+.list-clean{
+  margin:0;
+  padding-left:1.1rem;
+  display:grid;
+  gap:.5rem;
+}
+.cta-band{
+  background: linear-gradient(135deg, rgba(13,36,24,.95), rgba(8,14,11,.94));
+  border:1px solid rgba(199,162,87,.2);
+  border-radius:32px;
+  padding:1.8rem;
+  display:flex;
+  justify-content:space-between;
+  gap:1.5rem;
+  align-items:center;
+}
+.cta-band .btn-row{margin-top:0;}
+.inline-pill{
+  display:inline-block;
+  padding:.38rem .8rem;
+  border-radius:999px;
+  border:1px solid rgba(199,162,87,.28);
+  color:#d7dece;
+  font-size:.83rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+@media (max-width: 900px){
+  .utility-grid{grid-template-columns:1fr;}
+  .cta-band{flex-direction:column; align-items:flex-start;}
+}
